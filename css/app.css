@@ -1,0 +1,45 @@
+body{
+    font-family: '游ゴシック',YuGothic,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    /*background: #000;*/
+    color: #333;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    word-break: break-all;
+}
+.navList {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    text-align: right;
+}
+ul
+{
+    list-style: none;
+}
+.navTxt {
+    position: relative;
+    display: inline-block;
+    padding: 0 5px 0 17px;
+    margin-bottom: 5px;
+    font-size: 133%;
+    font-style: italic;
+    font-weight: bold;
+    /*color: #FFF;*/
+    overflow: hidden; /* 範囲外の領域を隠す */
+
+}
+.nT
+{
+    position: relative;
+    display: inline-block;
+    top: 100%;
+}
+.nT .nt1
+{
+    color: #fff100;
+}
